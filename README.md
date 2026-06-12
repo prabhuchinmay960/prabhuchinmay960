@@ -5,9 +5,9 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0B0C,100:223316&height=200&section=header&text=Chinmay%20Prabhu&fontColor=C7F84E&fontSize=56&fontAlignY=36&desc=Design%20that%20actually%20ships&descSize=18&descAlignY=58&animation=fadeIn" alt="header" />
 </p>
 
-<!-- ░░░ 3D AVATAR ░░░ -->
+<!-- ░░░ 8-BIT CODING GIF ░░░ -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/prabhuchinmay960/prabhuchinmay960/main/avatar.svg" width="180" alt="Chinmay Prabhu — 3D avatar" />
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="480" alt="coding" />
 </p>
 
 <!-- ░░░ TYPING ░░░ -->

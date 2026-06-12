@@ -5,9 +5,9 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0B0C,100:223316&height=210&section=header&text=Chinmay%20Prabhu&fontColor=C7F84E&fontSize=56&fontAlignY=34&desc=A%20designer%20who%20codes%20%C2%B7%20Design%20that%20actually%20ships&descSize=17&descAlignY=56&animation=fadeIn" alt="header" />
 </p>
 
-<!-- ░░░ HERO GIF — design on one screen, code on the other ░░░ -->
+<!-- ░░░ HERO — custom animated pixel-art coding setup (lime/dark, on-brand) ░░░ -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="430" alt="design + code" />
+  <img src="https://raw.githubusercontent.com/prabhuchinmay960/prabhuchinmay960/main/pixel-hero.svg" width="520" alt="pixel-art coding setup" />
 </p>
 
 <!-- ░░░ KINETIC TYPE ░░░ -->

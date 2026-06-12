@@ -1,5 +1,9 @@
 <!-- PROFILE README — shows on github.com/prabhuchinmay960 -->
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/prabhuchinmay960/prabhuchinmay960/main/avatar.svg" width="190" alt="Chinmay Prabhu — 3D avatar" />
+</p>
+
 <h1 align="center">Hi, I'm Chinmay Prabhu 👋</h1>
 
 <h3 align="center">UI/UX Designer &nbsp;✦&nbsp; Full-Stack Developer</h3>

@@ -31,23 +31,23 @@
   <g>
     <!-- each candle: wick line + body rect; up = lime, down = dim moss -->
     <g opacity="0"><animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.04;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
-      <line x1="100" y1="235" x2="100" y2="262" stroke="#a67300" stroke-width="2"/><rect x="93" y="240" width="14" height="18" fill="#eda100"/></g>
+      <line x1="100" y1="235" x2="100" y2="262" stroke="#a04443" stroke-width="2"/><rect x="93" y="240" width="14" height="18" fill="#e34948"/></g>
     <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.06;0.10;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
-      <line x1="140" y1="222" x2="140" y2="252" stroke="#8B897F" stroke-width="2"/><rect x="133" y="227" width="14" height="19" fill="#d9d7cf"/></g>
+      <line x1="140" y1="222" x2="140" y2="252" stroke="#8aa64a" stroke-width="2"/><rect x="133" y="227" width="14" height="19" fill="#C7F84E"/></g>
     <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.12;0.16;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
-      <line x1="180" y1="214" x2="180" y2="240" stroke="#8B897F" stroke-width="2"/><rect x="173" y="218" width="14" height="16" fill="#d9d7cf"/></g>
+      <line x1="180" y1="214" x2="180" y2="240" stroke="#8aa64a" stroke-width="2"/><rect x="173" y="218" width="14" height="16" fill="#C7F84E"/></g>
     <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.18;0.22;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
-      <line x1="220" y1="224" x2="220" y2="250" stroke="#a67300" stroke-width="2"/><rect x="213" y="228" width="14" height="17" fill="#eda100"/></g>
+      <line x1="220" y1="224" x2="220" y2="250" stroke="#a04443" stroke-width="2"/><rect x="213" y="228" width="14" height="17" fill="#e34948"/></g>
     <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.24;0.28;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
-      <line x1="260" y1="200" x2="260" y2="234" stroke="#8B897F" stroke-width="2"/><rect x="253" y="205" width="14" height="22" fill="#d9d7cf"/></g>
+      <line x1="260" y1="200" x2="260" y2="234" stroke="#8aa64a" stroke-width="2"/><rect x="253" y="205" width="14" height="22" fill="#C7F84E"/></g>
     <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.30;0.34;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
-      <line x1="300" y1="190" x2="300" y2="216" stroke="#8B897F" stroke-width="2"/><rect x="293" y="194" width="14" height="15" fill="#d9d7cf"/></g>
+      <line x1="300" y1="190" x2="300" y2="216" stroke="#8aa64a" stroke-width="2"/><rect x="293" y="194" width="14" height="15" fill="#C7F84E"/></g>
     <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.36;0.40;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
-      <line x1="340" y1="198" x2="340" y2="226" stroke="#a67300" stroke-width="2"/><rect x="333" y="203" width="14" height="16" fill="#eda100"/></g>
+      <line x1="340" y1="198" x2="340" y2="226" stroke="#a04443" stroke-width="2"/><rect x="333" y="203" width="14" height="16" fill="#e34948"/></g>
     <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.42;0.46;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
-      <line x1="380" y1="176" x2="380" y2="208" stroke="#8B897F" stroke-width="2"/><rect x="373" y="181" width="14" height="20" fill="#d9d7cf"/></g>
+      <line x1="380" y1="176" x2="380" y2="208" stroke="#8aa64a" stroke-width="2"/><rect x="373" y="181" width="14" height="20" fill="#C7F84E"/></g>
     <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.52;0.95;1" dur="8s" repeatCount="indefinite"/>
-      <line x1="420" y1="166" x2="420" y2="192" stroke="#8B897F" stroke-width="2"/><rect x="413" y="170" width="14" height="16" fill="#d9d7cf"/></g>
+      <line x1="420" y1="166" x2="420" y2="192" stroke="#8aa64a" stroke-width="2"/><rect x="413" y="170" width="14" height="16" fill="#C7F84E"/></g>
   </g>
 
   <!-- equity curve: draws itself over the cycle -->

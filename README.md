@@ -60,13 +60,16 @@ I'm a **designer who codes**. I take a product from the first sketch to the last
   <a href="https://github.com/prabhuchinmay960/chinmay-portfolio">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=prabhuchinmay960&repo=chinmay-portfolio&hide_border=true&bg_color=0B0B0C&title_color=C7F84E&icon_color=C7F84E&text_color=ECEAE3" alt="chinmay-portfolio" />
   </a>
+  <a href="https://github.com/prabhuchinmay960/valuationdecoded-research">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=prabhuchinmay960&repo=valuationdecoded-research&hide_border=true&bg_color=0B0B0C&title_color=C7F84E&icon_color=C7F84E&text_color=ECEAE3" alt="valuationdecoded-research" />
+  </a>
 </p>
 
 | Project | What it is |
 |---|---|
+| 🧮 **[ValuationDecoded](https://github.com/prabhuchinmay960/valuationdecoded-research)** | Full-stack equity research platform + **VD Alpha Engine**, a production ML stock-selection system for Indian equities — 67-feature point-in-time panel, XGBoost + LightGBM ensembles that **retrain themselves behind a regression guard**, embargoed walk-forward validation with pre-registered ship criteria, live since Jun 2026. Research docs are public; the engine is private. *FastAPI · React · XGBoost · LightGBM · Postgres · MongoDB.* |
 | 🟢 **[chinmay-portfolio](https://github.com/prabhuchinmay960/chinmay-portfolio)** | Editorial portfolio — smooth scroll, kinetic type, a click-to-disperse **3D particle avatar**, and a scroll-driven 3D scene that builds the homepage live. *Next.js · React Three Fiber · Framer Motion · Tailwind.* |
 | 💹 **InvestWyse** | An investing product — research-to-decision UX, designed and built end-to-end. |
-| 🧮 **ValuationDecoded** | Turning company valuation into something a human can actually read and act on. |
 
 ---
 

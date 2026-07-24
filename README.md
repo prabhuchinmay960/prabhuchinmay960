@@ -7,7 +7,7 @@
 
 <!-- ░░░ HERO — animated quant terminal: candles, WF equity curve, ticker (lime/dark) ░░░ -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/prabhuchinmay960/prabhuchinmay960/main/quant-hero.svg" width="780" alt="animated quant terminal — candlesticks, walk-forward equity curve, ticker tape" />
+  <img src="https://raw.githubusercontent.com/prabhuchinmay960/prabhuchinmay960/main/quant-hero.svg?v=3" width="780" alt="animated quant terminal — candlesticks, walk-forward equity curve, ticker tape" />
 </p>
 
 <!-- ░░░ KINETIC TYPE ░░░ -->

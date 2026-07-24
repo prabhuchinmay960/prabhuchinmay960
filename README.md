@@ -5,14 +5,14 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0B0C,100:223316&height=210&section=header&text=Chinmay%20Prabhu&fontColor=C7F84E&fontSize=56&fontAlignY=34&desc=Design%20that%20ships%20%C2%B7%20Models%20that%20trade&descSize=17&descAlignY=56&animation=fadeIn" alt="header" />
 </p>
 
-<!-- ░░░ HERO — custom animated pixel-art coding setup (lime/dark, on-brand) ░░░ -->
+<!-- ░░░ HERO — animated quant terminal: candles, WF equity curve, ticker (lime/dark) ░░░ -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/prabhuchinmay960/prabhuchinmay960/main/pixel-hero.svg" width="520" alt="pixel-art coding setup" />
+  <img src="https://raw.githubusercontent.com/prabhuchinmay960/prabhuchinmay960/main/quant-hero.svg" width="780" alt="animated quant terminal — candlesticks, walk-forward equity curve, ticker tape" />
 </p>
 
 <!-- ░░░ KINETIC TYPE ░░░ -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=3000&pause=900&color=C7F84E&center=true&vCenter=true&width=760&lines=Sketch+%E2%86%92+system+%E2%86%92+shipped+product.;Backtest+%E2%86%92+walk-forward+%E2%86%92+live+capital.;Pixel-perfect.+Production-grade.+Point-in-time.;I+finish+the+last+5%25+nobody+else+does." alt="kinetic type" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=3000&pause=900&color=C7F84E&center=true&vCenter=true&width=900&lines=Sketch+%E2%86%92+system+%E2%86%92+shipped+product.;Backtest+%E2%86%92+walk-forward+%E2%86%92+live+capital.;Pixel-perfect.+Production-grade.+Point-in-time.;I+finish+the+last+5%25+nobody+else+does." alt="kinetic type" />
 </p>
 
 <p align="center">
@@ -72,7 +72,16 @@ I'm a **designer who codes — and a quant who ships**. I take a product from th
 
 ## <samp>❯ 03 — The alpha engine</samp>
 
-**VD Alpha Engine** — a production ML system for cross-sectional Indian-equity selection, live since June 2026. It retrains itself, guards itself against bad retrains, snapshots its daily picks for audit, and every feature it uses survived a pre-registered walk-forward gauntlet.
+**VD Alpha Engine** — a production ML system for cross-sectional Indian-equity selection, live since June 2026. It retrains itself, guards itself against bad retrains, snapshots its daily picks for audit, and every feature it uses survived a pre-registered walk-forward gauntlet. A normal day, unattended:
+
+```text
+07:45 IST   data       ▸ OHLCV refresh 597 syms · NSE bhavcopy gap-fill · indices ✓
+08:45 IST   sentinel   ▸ PIT store fresh · analyst CSV fresh · status OK
+09:07 IST   autopilot  ▸ retrain 10d/20d → regression guard PASS → promoted
+09:37 SAT   autopilot  ▸ weekly 60d + ranker → guard PASS → promoted
+every 6h    watchdog   ▸ feature PSI + rolling AUC — no drift
+EOD         snapshot   ▸ top-30 picks persisted, immutable — live vs backtest, auditable
+```
 
 <p align="center">
   <img src="https://img.shields.io/badge/Live_since-Jun_2026-C7F84E?style=for-the-badge&labelColor=0B0B0C" />

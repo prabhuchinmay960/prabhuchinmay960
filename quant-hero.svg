@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 340" width="1040" height="340">
+  <!-- VD Alpha Engine — animated quant terminal hero (lime/dark, pixel aesthetic) -->
+  <defs>
+    <style>
+      .mono { font-family: "SFMono-Regular", "Menlo", "Consolas", monospace; }
+    </style>
+  </defs>
+
+  <!-- canvas -->
+  <rect x="0" y="0" width="1040" height="340" rx="14" fill="#0B0B0C"/>
+  <rect x="0.5" y="0.5" width="1039" height="339" rx="14" fill="none" stroke="#223316" stroke-width="1"/>
+
+  <!-- faint grid -->
+  <g stroke="#161d0e" stroke-width="1">
+    <line x1="60" y1="70"  x2="980" y2="70"/>
+    <line x1="60" y1="120" x2="980" y2="120"/>
+    <line x1="60" y1="170" x2="980" y2="170"/>
+    <line x1="60" y1="220" x2="980" y2="220"/>
+    <line x1="60" y1="270" x2="980" y2="270"/>
+  </g>
+  <line x1="60" y1="270" x2="980" y2="270" stroke="#383835" stroke-width="1.5"/>
+
+  <!-- window chrome dots + title -->
+  <circle cx="30" cy="28" r="5" fill="#e34948"/>
+  <circle cx="48" cy="28" r="5" fill="#eda100"/>
+  <circle cx="66" cy="28" r="5" fill="#C7F84E"/>
+  <text x="88" y="33" class="mono" font-size="15" fill="#C7F84E" font-weight="bold">vd-alpha-engine ▸ walk-forward replay</text>
+  <text x="953" y="33" class="mono" font-size="13" fill="#52514e" text-anchor="end">60d · top-20 · settled data</text>
+
+  <!-- candlesticks: staggered pixel candles, 8s loop -->
+  <g>
+    <!-- each candle: wick line + body rect; up = lime, down = dim moss -->
+    <g opacity="0"><animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.04;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
+      <line x1="100" y1="235" x2="100" y2="262" stroke="#5a7031" stroke-width="2"/><rect x="93" y="240" width="14" height="18" fill="#3f5522"/></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.06;0.10;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
+      <line x1="140" y1="222" x2="140" y2="252" stroke="#8aa64a" stroke-width="2"/><rect x="133" y="227" width="14" height="19" fill="#C7F84E"/></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.12;0.16;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
+      <line x1="180" y1="214" x2="180" y2="240" stroke="#8aa64a" stroke-width="2"/><rect x="173" y="218" width="14" height="16" fill="#C7F84E"/></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.18;0.22;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
+      <line x1="220" y1="224" x2="220" y2="250" stroke="#5a7031" stroke-width="2"/><rect x="213" y="228" width="14" height="17" fill="#3f5522"/></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.24;0.28;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
+      <line x1="260" y1="200" x2="260" y2="234" stroke="#8aa64a" stroke-width="2"/><rect x="253" y="205" width="14" height="22" fill="#C7F84E"/></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.30;0.34;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
+      <line x1="300" y1="190" x2="300" y2="216" stroke="#8aa64a" stroke-width="2"/><rect x="293" y="194" width="14" height="15" fill="#C7F84E"/></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.36;0.40;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
+      <line x1="340" y1="198" x2="340" y2="226" stroke="#5a7031" stroke-width="2"/><rect x="333" y="203" width="14" height="16" fill="#3f5522"/></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.42;0.46;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
+      <line x1="380" y1="176" x2="380" y2="208" stroke="#8aa64a" stroke-width="2"/><rect x="373" y="181" width="14" height="20" fill="#C7F84E"/></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.52;0.95;1" dur="8s" repeatCount="indefinite"/>
+      <line x1="420" y1="166" x2="420" y2="192" stroke="#8aa64a" stroke-width="2"/><rect x="413" y="170" width="14" height="16" fill="#C7F84E"/></g>
+  </g>
+
+  <!-- equity curve: draws itself over the cycle -->
+  <polyline points="470,244 510,238 540,242 575,226 610,214 645,220 680,198 715,186 750,192 785,168 820,152 855,158 890,132 925,118 960,98"
+            fill="none" stroke="#C7F84E" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"
+            stroke-dasharray="620" stroke-dashoffset="620">
+    <animate attributeName="stroke-dashoffset" values="620;620;0;0" keyTimes="0;0.5;0.86;1" dur="8s" repeatCount="indefinite"/>
+  </polyline>
+  <!-- benchmark: dim reference line -->
+  <polyline points="470,248 540,244 610,238 680,230 750,224 820,214 890,208 960,198"
+            fill="none" stroke="#52514e" stroke-width="2" stroke-dasharray="5 6" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.8;0.8" keyTimes="0;0.5;0.6;1" dur="8s" repeatCount="indefinite"/>
+  </polyline>
+  <text x="963" y="200" class="mono" font-size="11" fill="#52514e" opacity="0">NIFTY
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.62;0.7;1" dur="8s" repeatCount="indefinite"/></text>
+  <text x="963" y="98" class="mono" font-size="11" fill="#C7F84E" font-weight="bold" opacity="0">MODEL
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.84;0.9;1" dur="8s" repeatCount="indefinite"/></text>
+
+  <!-- terminal status lines, typed in sequence -->
+  <g class="mono" font-size="13.5">
+    <text x="90" y="86" fill="#ECEAE3" opacity="0">panel ▸ 900k rows × 67 PIT features … OK
+      <animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.06;0.5;0.95;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="90" y="110" fill="#ECEAE3" opacity="0">train ▸ 5×XGB + 3×LGBM · embargo 91d … guard PASS → promoted
+      <animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.14;0.18;0.5;0.95;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="90" y="134" fill="#ECEAE3" opacity="0">replay ▸ 16 quarters OOS · 20bps … Sharpe 1.76 · hit 75%
+      <animate attributeName="opacity" values="0;0;1;1;1;0" keyTimes="0;0.26;0.30;0.5;0.95;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="90" y="158" fill="#C7F84E" font-weight="bold" opacity="0">verdict ▸ sign-consistent on 2 vintages ✓ SHIP
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.38;0.42;0.95;1" dur="8s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- blinking cursor -->
+  <rect x="90" y="172" width="9" height="16" fill="#C7F84E">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- scrolling ticker tape -->
+  <g class="mono" font-size="12.5" fill="#8B897F">
+    <text x="0" y="312">
+      <animateTransform attributeName="transform" type="translate" from="1040 0" to="-1400 0" dur="18s" repeatCount="indefinite"/>
+      NIFTY-500 UNIVERSE ▪ 67 PIT FEATURES ▪ WALK-FORWARD SHARPE 1.76 ▪ PRE-REGISTERED OR IT DIDN'T HAPPEN ▪ 13 IDEAS KILLED · 2 SHIPPED ▪ AUC LIES, THE REPLAY DECIDES ▪ LIVE SINCE JUN 2026</text>
+  </g>
+
+  <!-- pixel sparks -->
+  <g fill="#C7F84E">
+    <rect x="520" y="58" width="6" height="6" opacity="0.5"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.2s" repeatCount="indefinite"/></rect>
+    <rect x="880" y="52" width="5" height="5" opacity="0.4"><animate attributeName="opacity" values="0.6;0.15;0.6" dur="2.6s" repeatCount="indefinite"/></rect>
+    <rect x="700" y="64" width="4" height="4" opacity="0.5"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="4.1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
